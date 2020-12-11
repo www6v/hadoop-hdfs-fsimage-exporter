@@ -1,0 +1,14 @@
+2020-12-11 14:54:01,296 [pool-1-thread-1] INFO  org.apache.hadoop.hdfs.server.namenode.FSDirectory  - GLOBAL serial map: bits=29 maxEntries=536870911
+2020-12-11 14:54:01,297 [pool-1-thread-1] INFO  org.apache.hadoop.hdfs.server.namenode.FSDirectory  - USER serial map: bits=24 maxEntries=16777215
+2020-12-11 14:54:01,297 [pool-1-thread-1] INFO  org.apache.hadoop.hdfs.server.namenode.FSDirectory  - GROUP serial map: bits=24 maxEntries=16777215
+2020-12-11 14:54:01,297 [pool-1-thread-1] INFO  org.apache.hadoop.hdfs.server.namenode.FSDirectory  - XATTR serial map: bits=24 maxEntries=16777215
+2020-12-11 14:54:01,367 [pool-1-thread-1] INFO  de.m3y.prometheus.exporter.fsimage.FsImageUpdateHandler  - Loaded /home/wei/HadoopPrometheus/hadoop-hdfs-fsimage-exporter/src/test/resources/fsimage_0001 with 0.0MiB in 189ms
+2020-12-11 14:54:01,399 [pool-1-thread-1] INFO  de.m3y.prometheus.exporter.fsimage.FsImageReporter  - Finished computing overall/group/user stats in 19ms
+2020-12-11 14:54:01,401 [pool-1-thread-1] WARN  de.m3y.prometheus.exporter.fsimage.FsImageReporter  - No matches found for /tmp
+2020-12-11 14:54:01,403 [pool-1-thread-1] INFO  de.m3y.prometheus.exporter.fsimage.FsImageReporter  - Expanded paths [/datalake/asset3, /datalake/asset1, /datalake/asset2, /user/mm] for path stats [/tmp, /datalake/a.*, /user/m.*]
+2020-12-11 14:54:01,406 [pool-1-thread-1] INFO  de.m3y.prometheus.exporter.fsimage.FsImageReporter  - Finished 4 path stats in 3ms
+2020-12-11 14:54:01,409 [pool-1-thread-1] INFO  de.m3y.prometheus.exporter.fsimage.FsImageReporter  - Expanded paths [/datalake/asset1, /datalake/asset2] for path set stats datalakeAsset1and2
+2020-12-11 14:54:01,410 [ForkJoinPool.commonPool-worker-2] WARN  de.m3y.prometheus.exporter.fsimage.FsImageReporter  - No matches found for /user/foo
+2020-12-11 14:54:01,410 [ForkJoinPool.commonPool-worker-2] INFO  de.m3y.prometheus.exporter.fsimage.FsImageReporter  - Expanded paths [/datalake/asset3, /user/mm] for path set stats userMmAndFooAndAsset1
+2020-12-11 14:54:01,411 [pool-1-thread-1] INFO  de.m3y.prometheus.exporter.fsimage.FsImageReporter  - Finished 2 path set stats in 4ms
+2020-12-11 14:54:01,433 [main] INFO  de.m3y.prometheus.exporter.fsimage.WebServer  - FSImage exporter started and listening on /0.0.0.0:9709
